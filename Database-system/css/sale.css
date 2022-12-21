@@ -1,0 +1,248 @@
+.info_box { 
+    width: 100%;
+    float: center;
+ }
+ 
+ .info_box h2 { 
+    font-size: 21px; 
+    color: #777; text-align: center; 
+    letter-spacing: 36px;
+    margin: 50px;
+ }
+ 
+ .info_box h2 span { 
+    color:#042e6f;
+ }
+ 
+ .info_box ul {
+    list-style-type: none;
+ }
+ 
+ .info_box li {
+    float: left;
+    padding: 0 0 0 45px;
+    width: 260px; 
+    position: relative;
+	margin-bottom: 30px; /*간격*/
+ }
+
+ .info_box li img { 
+    width: 100%; 
+    height: 170px;
+ }
+ 
+ .info_box li a > div { 
+    padding: 40px 20px 0px; 
+    height: 170px;
+ }
+ 
+ .info_box li a h3 { 
+    font-size: 19px; 
+    color:#222; 
+    font-weight: normal; 
+    line-height: 5px;
+ }
+ 
+ .info_box li a p {
+    padding: 13px 0 0;
+    font-size: 13px;
+    color: #747774;
+    line-height: 18px;
+ }
+ 
+ /*.info_box li a > div div { 
+    position: absolute; 
+    left: 70px; 
+    bottom: 0; 
+    width: 220px; 
+    height: 54px; 
+    line-height: 54px; 
+    border-top: 1px solid #ccc; 
+    text-align: right;
+	font-size: 13px;
+	color: #666;
+ }*/
+ 
+ .info_box li a > div div :after { 
+    content: ""; 
+    display: inline-block;
+	margin: 0 0 0 6px;
+	width: 22px;
+	height: 12px;
+} 
+ 
+ .info_box li a .ico { 
+    position: absolute; 
+    left: 70px; 
+    top: 130px; 
+    width: 65px; 
+    height: 65px; 
+    color:#fff; 
+    text-align: center; 
+    line-height: 65px; 
+    font-size: 13px;
+ }
+
+/*분양중*/
+ .info_box li a .ico.no1 { 
+    background: #94c83d;
+ }
+ 
+ /*분양예정*/
+ .info_box li a .ico.no2 { 
+    background: #042e6f;
+ }
+ 
+ /*사진 줄간격*/
+ .info_box > ul + * {
+	padding-top: 30px;
+ }
+ 
+  .info_box li > div { 
+    position: absolute; 
+    left: 70px; 
+    bottom: 0; 
+    width: 220px; 
+    height: 54px; 
+    line-height: 54px; 
+    border-top: 1px solid #ccc; 
+    text-align: right;
+	font-size: 13px;
+	color: #666;
+	cursor: pointer;
+ }
+
+ .search {
+    margin-top: 5px;
+	margin-bottom: 20px;
+    /*box-shadow: 0 0 0 1px red inset; */
+    width: 100%;
+    overflow: auto
+ }
+
+ #search_box {
+	border-top: 1px solid #ccc;
+	line-height: 60px;
+	text-align: center;
+	margin-top: 30px;
+ }
+
+.paging {
+	border: 1px solid white;
+	margin-left: 5%;
+	width: 90%;
+	height: 5%;
+	text-align: center;
+	font-size: 15px;
+}
+
+/*main.css*/
+.nav {
+    display: flex;
+	height: 70px;
+	border-bottom: 1px solid #ddd;
+}
+
+.login {
+    text-align: center;
+    display: flex;
+	margin-left: 87%;
+	margin-top: 20px;
+ }
+.body {
+    min-width: 900px;
+    min-height: 850px;
+    width: 100%;
+    margin: 0;
+}
+
+.home {
+    overflow: hidden;
+    position: relative;
+}
+
+.main {
+    float: left;
+    box-shadow: 0 0 0 1px black inset; 
+    width: 80%;
+    overflow: auto;
+ }
+ .side {
+    position: absolute;
+    margin-left: 81%;
+    margin-bottom: 5%;
+    box-shadow: 0 0 0 1px white inset; 
+    width: 19%;
+    height: 100%;
+	background-color: 1px solid #ddd;
+ }
+
+ .logo {
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 50%;
+    height: 10%;
+    border: 1px solid white;
+ }
+ .contents {
+    border: 1px solid white;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    padding: 0;
+    width: 90%;
+    height: 78%;
+	display: inline-block;
+ }
+ .map {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    margin-left: 0;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+ }
+ .board {
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+ }
+
+ .index_board {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+ }
+ .title {
+    box-shadow: 0 0 0 1px red inset; 
+    width: 100%;
+    overflow: auto
+ }
+ .list {
+    margin-top: 10px;
+    box-shadow: 0 0 0 1px red inset; 
+    width: 100%;
+    overflow: auto
+ }
+
+ .sidebar {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    height: 80%;
+    border: 1px solid red;
+ }
+ .more {
+    margin-right: 10px;
+    float:right;
+ }
+ .name {
+    margin-left: 10px;
+    float:left;
+ }

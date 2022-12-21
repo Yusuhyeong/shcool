@@ -1,0 +1,142 @@
+.clear {
+   content: ".";
+   display: block;
+   visibility: hidden;
+   height: 0;
+   clear: both;
+}
+
+.nav {
+	height: 70px;
+   border-bottom: 1px solid #ddd;
+}
+
+.nav .lnb { width: 63%; height: 70px; float:left; margin-left:2%; }
+.nav .lnb li { float: left; list-style: none; width: 20%; text-align: center; }
+.nav .lnb li a {color:#000;text-decoration:none; display: block; height: 81px; padding: 0 0; font-size: 17px; color: #333; line-height: 40px;}
+.nav .lnb li a:hover { color: #2d5b79;}
+.nav .lnb li a span { position: relative;}
+.nav .lnb li a:hover span:after { content: ""; display: block; position: absolute; left: 0; bottom:-9px;  width: 100%; height: 1px; background: #2d5b79;}
+
+.top-l {
+   float: right;
+   margin-top: 5px;
+   width: 15%;
+   margin-right: 2%;
+   font-size: 14px;
+   text-align: right;
+}
+
+.top-l a{
+   text-decoration: none;
+   color: rgb(44, 44, 44);
+   font-size: 14px;
+}
+
+.back_{
+  width : 100%;
+  height: 100%;
+}
+
+.login {
+   float:right;
+   text-align: center;
+   display: flex;
+	margin-right: 0%;
+	margin-top: 20px;
+ }
+
+ .logout {
+   float:right;
+   text-align: center;
+   display: flex;
+	margin-right: 4%;
+   margin-top: 20px;
+   width: 100%;
+ }
+
+ .logo {
+   text-align: center;
+   float: left;
+   width: 15%;
+   height: 50px;
+   margin-top: 10px;
+}
+
+body {
+    min-width: 1200px;
+    min-height: 850px;
+    width: 100%;
+    margin: 0;
+}
+
+.home {
+    overflow: hidden;
+    position: relative;
+}
+
+.main {
+    padding-top: 30px;
+    float: center;
+    width: 100%;
+ }
+
+
+ .contents_map {
+    border: 1px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 60px;
+    width: 90%;
+    height: 78%;
+   display: inline-block;
+   background-color: #f0e7db;
+ }
+
+ .contents_map h2 { padding: 20px 0 0; font-size: 28px; color: #000; text-align: center; line-height: 100%;}
+ .contents_map p { text-align: center; font-size: 14px; color: #3a3b36; line-height: 100%;} 
+
+ .map {
+	width: 80%;
+	height: 600px;
+	text-align:center;
+	border: 1px solid #ddd;
+ }
+ .board {
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+ }
+
+ .index_board {
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+	box-shadow: 1px solid #ddd;
+ }
+
+.index_board > div { width: 1300px; margin: 0 auto; padding: 55px 0;}
+.index_board article { padding: 20px 0 0;}
+.index_board article > div { float: left; position: relative; width: 100%; background: #f2f0ed;}
+.index_board article > div a { font-size: 16px; color:#424241;}
+.index_board article > div a p { font-size: 12px; color:#979797;}
+.index_board article > div h2 { margin-bottom: 0px; height: 77px; line-height: 77px; font-size: 24px; color: #2d5b79; text-align: center;}
+.index_board article > div > a { text-decoration: none; text-align: center; line-height: 1; font-size: 33px; position: absolute; right:90px; top:40px; width: 37px; height: 37px;  background:#fff;  border-radius: 30px;}
+.index_board article > div.right { margin-left: 0;}
+.index_board article > div.right ul li {list-style-type: none; position: relative; padding: 10px 10px;}
+.index_board article > div.right ul li:last-child { border-bottom: none;}
+.index_board article > div.right ul li a { text-decoration: none; display: ruby-base-container; overflow: hidden; width: 300px; height: 20px; line-height: 25px; text-indent: 30px; white-space: nowrap; text-overflow: ellipsis;}
+.index_board article > div.right p { position: absolute; right: 80px; top: -2px;}
+
+
+footer .top { background: #383f43; padding: 18px 0;}
+footer .btm {  padding: 25px 0 10px 0; background: #4c5459;}
+footer .btm_header { width:100%; text-align: center; }
+footer .btm_bottom { text-align: center;}
+footer .btm_bottom ul { padding: 5px 0 1px 0; margin-bottom: 4px; }
+footer .btm_bottom li { display: inline-block; position: relative; padding: 0 10px; color:#fff; font-size:14px;}
+footer .btm_bottom li:after {content: ""; position: absolute; right: 0; top: 50%; margin-top: -3px; width: 1px; height: 8px; background: #70767a;}
+footer .btm_bottom address { font-size: 14px; color:#fff; margin-bottom: 10px; }

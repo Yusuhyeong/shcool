@@ -1,0 +1,454 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "개나리",
+        "price": 3900,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "목련",
+        "price": 3900,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "유채꽃",
+        "price": 3000,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "다닥냉이",
+        "price": 5000,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "히아신스",
+        "price": 4000,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "모란",
+        "price": 3500,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "팬지",
+        "price": 4500,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "자목련",
+        "price": 5000,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/8.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "백선",
+        "price": 5000,
+        "season" : "봄",
+        "image": { "fields": { "file": { "url": "./images/9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "온난초",
+        "price": 6000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/10.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "나팔꽃",
+        "price": 5000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/11.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "장미",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/12.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "해바라기",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/13.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "카네이션",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/14.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "패랭이꽃",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/15.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "해란초",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/16.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "17" },
+      "fields": {
+        "title": "만병초",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/17.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "18" },
+      "fields": {
+        "title": "자주괭이밥",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/18.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "19" },
+      "fields": {
+        "title": "플록스",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/19.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "20" },
+      "fields": {
+        "title": "쑥부쟁이",
+        "price": 4000,
+        "season" : "여름",
+        "image": { "fields": { "file": { "url": "./images/20.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "21" },
+      "fields": {
+        "title": "국화",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/21.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "22" },
+      "fields": {
+        "title": "코스모스",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/22.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "23" },
+      "fields": {
+        "title": "방울꽃",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/23.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "24" },
+      "fields": {
+        "title": "구절초",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/24.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "25" },
+      "fields": {
+        "title": "분꽃",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/25.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "26" },
+      "fields": {
+        "title": "강활",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/26.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "27" },
+      "fields": {
+        "title": "울릉국화",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/27.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "28" },
+      "fields": {
+        "title": "땅귀개",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/28.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "29" },
+      "fields": {
+        "title": "투구꽃",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/29.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "30" },
+      "fields": {
+        "title": "부용",
+        "price": 4000,
+        "season" : "가을",
+        "image": { "fields": { "file": { "url": "./images/30.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "31" },
+      "fields": {
+        "title": "동백꽃",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/31.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "32" },
+      "fields": {
+        "title": "시클라멘",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/32.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "33" },
+      "fields": {
+        "title": "베고니아",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/33.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "34" },
+      "fields": {
+        "title": "수선화",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/34.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "35" },
+      "fields": {
+        "title": "칼랑자코에",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/35.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "36" },
+      "fields": {
+        "title": "덴드로비움",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/36.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "37" },
+      "fields": {
+        "title": "포인세티아",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/37.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "38" },
+      "fields": {
+        "title": "팔레놉시스",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/38.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "39" },
+      "fields": {
+        "title": "세인트폴리아",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/39.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "40" },
+      "fields": {
+        "title": "시네라리아",
+        "price": 4000,
+        "season" : "겨울",
+        "image": { "fields": { "file": { "url": "./images/40.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "41" },
+      "fields": {
+        "title": "포인세티아",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/37.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "42" },
+      "fields": {
+        "title": "베고니아",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/33.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "43" },
+      "fields": {
+        "title": "칼랑자코에",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/35.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "44" },
+      "fields": {
+        "title": "시클라멘",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/32.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "45" },
+      "fields": {
+        "title": "국화",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/21.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "46" },
+      "fields": {
+        "title": "만병초",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/17.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "47" },
+      "fields": {
+        "title": "자목련",
+        "price": 5000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/8.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "48" },
+      "fields": {
+        "title": "코스모스",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/22.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "49" },
+      "fields": {
+        "title": "패랭이꽃",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/15.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "50" },
+      "fields": {
+        "title": "히아신스",
+        "price": 4000,
+        "season" : "HOT",
+        "image": { "fields": { "file": { "url": "./images/5.jpg" } } }
+      }
+    }
+  ]
+}

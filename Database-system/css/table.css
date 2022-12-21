@@ -1,0 +1,43 @@
+.table {
+	position: relative;
+	width: 97%;
+	border-collapse: collapse;
+	padding-bottom: 50px;
+}
+.table tr {
+	border-bottom: 1px solid #999;
+}
+.table th{
+	border-top: 1px solid black;
+	text-align: center;
+}
+
+.table td{
+	text-align: center;
+	padding: 10px;
+}
+
+.paging {
+	margin-top: 10px;
+	border: 1px solid red;
+	margin-left: 5%;
+	width: 90%;
+	height: 5%;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 0px;
+}
+
+.paging a {
+	margin-left: 10px;
+	font-size: 15px;
+}
+.home {
+    overflow: hidden;
+    position: relative;
+}
+.nav {
+	text-align: center;
+	height: 70px;
+	border-bottom: 1px solid #ddd;
+}

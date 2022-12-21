@@ -1,0 +1,230 @@
+.info_box { 
+   width: 100%;
+   float: center;
+}
+
+.info_box h2 { 
+   font-size: 21px; 
+   color: #777; text-align: center; 
+   letter-spacing: 36px;
+   margin: 50px;
+}
+
+.info_box h2 span { 
+   color:#042e6f;
+}
+
+.info_box ul {
+   list-style-type: none;
+}
+
+.info_box li {
+   float: left;
+   padding: 0 0 0 45px;
+   width: 260px; 
+   position: relative;
+  margin-bottom: 30px; /*간격*/
+}
+
+.info_box li em {
+  overflow: hidden;   /*화면 밖으로 초과 됐을 때 잘려서 나옴*/
+  display: block;
+  width: 100%; 
+   height: 170px;
+}
+
+.info_box li img { 
+   width: 100%; 
+   height: 170px;
+  transform: scale(1);
+  transition: all 0.3s;   /*움직임*/
+}
+
+.info_box li:hover img {
+  transform: scale(1.1);   /*1.2배 확대*/
+  filter: grayscale(50%) brightness(70%);
+}
+
+.info_box li a > div { 
+   padding: 40px 20px 0px; 
+   height: 170px;
+  /*transition: all 0.5s;   이걸 넣어야 움직임 밑에 모든 부분에 0.5s 넣어서 이건 빼도 됨*/
+}
+
+.info_box li:hover a > .temp{
+  background: #aaa8aa;
+}
+
+ .info_box li:hover a * {   /*모든 부분*/
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.info_box li a h3 { 
+   font-size: 19px; 
+   color:#222; 
+   font-weight: normal; 
+   line-height: 5px;
+}
+
+.info_box li a p {
+   padding: 13px 0 0;
+   font-size: 13px;
+   color: #747774;
+   line-height: 18px;
+}
+
+.info_box li a > div div :after { 
+   content: ""; 
+   display: inline-block;
+  margin: 0 0 0 6px;
+  width: 22px;
+  height: 12px;
+} 
+
+.info_box li a .ico { 
+   position: absolute; 
+   left: 70px; 
+   top: 130px; 
+   width: 65px; 
+   height: 65px; 
+   color:#fff; 
+   text-align: center; 
+   line-height: 65px; 
+   font-size: 13px;
+}
+
+/*1구역*/
+.info_box li a .ico.no1 { 
+   background: #042e6f;
+}
+
+/*2구역*/
+.info_box li a .ico.no2 { 
+   background: #005282;
+}
+
+/*3구역*/
+.info_box li a .ico.no3 { 
+   background: #0067a3;
+}
+
+/*4구역*/
+.info_box li a .ico.no4 { 
+   background: #4682b4;
+}
+
+/*더보기 간격*/
+.info_box > ul + * {
+  padding-top: 30px;
+}
+
+.clickable {
+   text-decoration: none;
+}
+
+.btn_more {
+  display: inline-block;
+  width: 140px;
+  height: 44px;
+  border: 2px solid #042e6f;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  color: #042e6f;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 7px;
+  margin-bottom: 50px;
+}
+
+.btn_center {
+  text-align: center;
+}
+
+.info_box li > div { 
+   position: absolute; 
+   left: 70px; 
+   bottom: 0; 
+   width: 220px; 
+   height: 54px; 
+   line-height: 54px; 
+   border-top: 1px solid #ccc; 
+   text-align: right;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.5s; /**/
+}
+
+.info_box li:hover > div { 
+  border-top: 1px solid #fff;
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  opacity: 1;
+  transform: translateX(-100%) scale(1) skew(-45deg);
+  transition: 0.3s;
+
+}
+
+.text_ {
+  transform: translateY(-45%);   /*높이*/
+  padding-left: 0;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.text_ p {
+  transform: translateY(-100%) scale(0);
+  transition: 0.3s;
+  margin-left: 35px;
+  opacity: 0;
+  color: #fff;
+}
+
+ .info_box li:hover .text_ p{
+  transform: translateY(20%) scale(1);
+  opacity: 1;
+}
+
+ .search {
+   margin-top: 5px;
+  margin-bottom: 20px;
+   /*box-shadow: 0 0 0 1px red inset; */
+   width: 100%;
+   overflow: auto
+}
+
+#search_box {
+  border-top: 1px solid #ccc;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.paging {
+  border: 1px solid white;
+  margin-left: 5%;
+  width: 90%;
+  height: 5%;
+  text-align: center;
+  font-size: 15px;
+}

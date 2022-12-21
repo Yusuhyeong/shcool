@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
+ 
+void *sum(void *data);
+void *fact(void *data);
+ 
+int main(void)
+{
+   pthread_t tid[2];
+   int n;
+   
+   scanf("%d", &n);
+
+   pthread_create(&tid[0], NULL, sum, (void *)&n);
+   pthread_create(&tid[1], NULL, fact, (void *)&n);
+
+	//sleep(1);
+
+   pthread_join(tid[0], NULL);
+   pthread_join(tid[1], NULL);
+
+   return 0;
+}
+
+void *sum(void *data)
+{
+   int num = *((int *)data);
+   int sum = 0;
+
+   for (int a = 1; a <= num; a++)
+   {
+      sum += a;
+   }
+   printf("sum = %d\n", sum);
+	//sleep(1);
+  
+	return ;
+}
+
+void *fact(void *data)
+{
+   int num = *((int *)data);
+   unsigned long long result = 1;
+   
+   for (int b = 1; b <= num; b++)
+   {
+      result *= b;
+   }
+
+   printf("factorial = %lld\n", result);
+
+	sleep(2);
+	return ;
+}
